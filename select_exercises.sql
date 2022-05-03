@@ -14,6 +14,11 @@ where name = 'Nevermind';
 
 select name
 from albums
+where release_date > 1989
+and release_date< 2000;
+
+select name
+from albums
 where sales < 20;
 
 select name
