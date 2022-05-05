@@ -16,7 +16,8 @@ where emp_no in (
     select emp_no
     from employees
     where first_name = 'Aamod'
-    );
+    )
+group by titles.title;
 
 
 select first_name, last_name
