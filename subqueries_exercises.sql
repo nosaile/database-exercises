@@ -15,7 +15,7 @@ from titles
 where emp_no in (
     select emp_no
     from employees
-    where employees.employees.first_name = 'Aamod'
+    where first_name = 'Aamod'
     );
 
 
